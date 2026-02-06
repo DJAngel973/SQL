@@ -1,4 +1,4 @@
-# Temporary files
+# System files
 *.tmp
 *.log
 .DS_Store
@@ -7,3 +7,18 @@ Thumbs.db
 # Configuration folder
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Sensitive data (if passwords are handled in files)
+.env
+*.env.local
+
+# Docker data folder (Do not upload database)
+**/data/
+**/volumes/
+
+# Large local backups
+*.sql.gz
+*.dump
+backups/
