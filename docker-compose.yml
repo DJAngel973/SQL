@@ -77,13 +77,13 @@ inicio-mongo-coursea:
 
 # Volumes for persisting data
 volumes:
-  mysql-coursea-data:
+  mysql-coursera-data:
     name: ${MYSQL_VOLUME_NAME}
     driver: local
   postgres-coursera-data:
     name: ${POSTGRES_VOLUME_NAME}
     driver: local
-  mongo-coursea-data:
+  mongo-coursera-data:
     name: ${MONGO_VOLUME_NAME}
     driver: local
 
