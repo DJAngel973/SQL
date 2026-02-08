@@ -4,13 +4,7 @@ CREATE DATABASE MY_DATABASE;
 -- Use database
 USE MY_DATABASE;
 
--- Create table
-CREATE TABLE Students (
-    StudentID INT PRIMARY KEY,
-    Name VARCHAR(100) NOT NULL,
-    Age INT,
-    Major VARCHAR(50)
-);
+-- Confirmation message
+SELECT 'Step 1:MY_DATABASE database created successfully!' AS State;
 
--- Confirm or view created table
-SHOW tables;
+SHOW DATABASE;
