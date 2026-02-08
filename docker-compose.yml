@@ -8,7 +8,7 @@ services:
 inicio-mysql-coursera:
   image: mysql:8.0
   container_name: inicio-mysql-coursera
-  restart: unless-stopped
+  restart: no
   environment:
     MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     MYSQL_DATABASE: ${MYSQL_DATABASE}
@@ -33,7 +33,7 @@ inicio-mysql-coursera:
 inicio-postgres-coursera:
   image: postgres:15
   container_name: inicio-postgres-coursera
-  restart: unless-stopped
+  restart: no
   environment:
     POSTGRES_USER: ${POSTGRES_USER}
     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
@@ -56,7 +56,7 @@ inicio-postgres-coursera:
 inicio-mongo-coursea:
   image: mongo:7
   container_name: inicio-mongo-coursera
-  restart: unless-stopped
+  restart: no
   environment:
     MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
     MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
