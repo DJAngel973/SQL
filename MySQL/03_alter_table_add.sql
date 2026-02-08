@@ -5,6 +5,9 @@ USE MY_DATABASE;
 SELECT 'Before ALTER TABLE:' AS info;
 DESCRIBE Students;
 
+-- Delete if it exists (it doesn't give an error if it)
+ALTER TABLE Students DROP COLUMN IF EXISTS GPA;
+
 -- Add column GPA
 ALTER TABLE Students
 ADD GPA DECIMAL(3, 2);
