@@ -19,4 +19,4 @@ SELECT Major, StudentCount
 FROM StudentCounts
 WHERE StudentCount < 8;
 
-SELECT 'Step 20: Simplified query completed!' AS State;
+SELECT 'Step 21: Simplified query completed!' AS State;
