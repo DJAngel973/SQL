@@ -1,4 +1,4 @@
-USE MY_DATABASE
+USE MY_DATABASE;
 
 -- 1. Add GPA column again
 SELECT 'Step 1: Adding GPA column' AS info;

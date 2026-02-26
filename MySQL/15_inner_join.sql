@@ -1,4 +1,4 @@
-USE MY_DATABASE
+USE MY_DATABASE;
 
 -- An INNER JOIN is used ti display only the students who are in the enrollments table.
 -- This will exclude students who have not enrolled in any courses.
