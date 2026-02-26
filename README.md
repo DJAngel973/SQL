@@ -1,6 +1,8 @@
 # Database Practice - MySQL, PostgreSQL and MongoDB
 
-This repository is a comprehensive educational resource for learning and practicing different database systems. It includes practical scripts, Docker configurations, and real-world examples for MySQL, PostgreSQL, and MongoDB, plus MySQL examples explained by a Java course on Coursera.
+This repository is a comprehensive educational resource for learning and practicing different database systems. It includes practical scripts, Docker configurations, and real-world examples for MySQL, PostgreSQL, and MongoDB.
+
+**Knowledge Source:** This MySQL material is based on concepts and examples acquired from the **Java Engineer Professional** course on Coursera, adapted and expanded for hands-on practice.
 
 ---
 
@@ -29,6 +31,26 @@ This repository is a comprehensive educational resource for learning and practic
 | **Best for** | Web apps, CRUD operations | Complex analytics, data integrity | Unstructured data, horizontal scaling |
 | **ACID** | ✅ | ✅ | ✅ (since v4.0) |
 | **Use cases** | WordPress, e-commerce | Financial apps, geospatial | Real-time apps, IoT |
+
+### **Real-World Examples:**
+
+#### 🐬 **MySQL**
+**Companies:** Facebook, Twitter, YouTube, Netflix, Uber, Airbnb
+- Content management systems
+- E-commerce platforms
+- User authentication systems
+
+#### 🐘 **PostgreSQL**
+**Companies:** Apple, Reddit, Instagram, Spotify, Twitch
+- Financial transaction systems
+- Geospatial applications (maps, location data)
+- Data analytics platforms
+
+#### �� **MongoDB**
+**Companies:** Adobe, Cisco, eBay, Forbes, Bosch
+- Real-time analytics
+- IoT data collection
+- Content management with flexible schemas
 
 ---
 
